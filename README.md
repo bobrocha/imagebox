@@ -15,4 +15,4 @@ The project demonstrates the use of the following:
 * image manipulation
 
 
-You can find a full working example at topdizel.com
+You can find a full working example at http://topdizel.com
