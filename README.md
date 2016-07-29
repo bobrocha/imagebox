@@ -13,3 +13,6 @@ The project demonstrates the use of the following:
 * opening and saving files
 * DOM manupulation or traversal via jQuery
 * image manipulation
+
+
+You can find a full working example at topdizel.com
