@@ -1,0 +1,50 @@
+.settings {
+	width: 650px;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+.settings h4 {
+	padding: 1em 0;
+	letter-spacing: 1px;
+	border-bottom: 1px solid #cacece;
+}
+
+.row {
+	font-size: 0.9em;
+	letter-spacing: 1px;
+	font-weight: 200;
+	padding: 0.5em 0;
+	overflow: hidden;
+}
+
+.row.name-setting,
+.row.password-setting,
+.row.delete-all-photos,
+.row.delete-account { border-bottom: 1px solid #cacece; }
+
+.row .btn { text-align: right; }
+.row .name { font-weight: bold; }
+
+.col {
+	display: inline-block;
+}
+
+.col.name, .col.value, .col.btn {
+	float: left;
+	width: 33%
+}
+
+.name-editContainer .first-name,
+.name-editContainer .name-commit-section
+{ margin: 0.8em 0; }
+
+.name-editContainer,
+.password-editContainer,
+.pword-response,
+.general-response
+ { text-align: center; }
+
+.password-editContainer span { margin-left: 0.5em; }
+.password-editContainer,.name-editContainer { background-color: rgba(202, 206, 206, 0.3) ;}
+.name-response { margin: 1em 0; }

@@ -1,0 +1,56 @@
+img { border: none; }
+input { padding: 0.30em; }
+
+.photo-setup {
+	width: 600px;
+	height: auto;
+	margin: 0 auto;
+	font-weight: 200;
+	font-size: 0.9em;
+	letter-spacing: 1px;
+}
+
+.setup-head {
+	border-left: 1px solid #cacece;
+    border-right: 1px solid #cacece;
+    border-top: 1px solid #cacece;
+	border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.photo-name { float: left; }
+
+.photo-section {
+	border: 1px solid #cacece;
+	text-align: center;
+}
+
+.tag-section {
+	padding: 1em 0 1em 1em;
+}
+
+.tag-section input {
+	width: 81%;
+	display: inline-block;
+}
+
+.ajax-loading {
+	text-align: center;
+	margin: 1em;
+	display: none;
+}
+
+.response {
+	display: none;
+	text-align: center;
+}
+
+.commit-section {
+	text-align: center;
+}
+
+.commit-section a {
+	margin-left: 1em;
+}

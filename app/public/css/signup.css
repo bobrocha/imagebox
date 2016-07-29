@@ -1,0 +1,45 @@
+.input-container {
+	width: 469px;
+	margin: 0 auto;
+}
+
+input, label {
+	display: block;
+	margin-top: 10px;
+	width: 445px;
+	font-size: 0.9em;
+	letter-spacing: 1px;
+}
+
+input {
+	border-radius: 6px;
+	border: 1px solid #cacece;
+	padding: 10px 12px;
+	font-weight: 100;
+}
+
+button {
+	display: block;
+	margin: 10px auto;
+	width: 200px;
+	background-color: transparent;
+	border-radius: 6px;
+	border: 1px solid #cacece;
+	padding: 10px 12px;
+	font-size: 0.9em;
+	letter-spacing: 1px;
+	font-weight: 100;
+}
+
+button:hover {
+	background: #808080;
+	color: #ffffff;
+}
+
+.error {
+	color: red;
+	font-weight: bold;
+	display: none;
+}
+
+.response { text-align: center; }

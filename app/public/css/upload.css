@@ -1,0 +1,20 @@
+/* Upload Photo */
+
+.upload-wrapper {
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+}
+
+.upload-wrapper input {
+	display: none;
+}
+
+[for='file-input'] {
+	display: block;
+	background: url(../images/upload.png);
+	background-repeat: no-repeat;
+	width: 250px;
+	height: 250px;
+	cursor: pointer;
+}

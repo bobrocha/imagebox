@@ -1,0 +1,98 @@
+.photo {
+	border-radius: 6px;
+	border: 1px solid #ccc;
+	width: 298px;
+	height: 298px;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+
+.photo-name {
+	position: absolute;
+	bottom: 30px;
+	width: 100%;
+	padding: 0.5em;
+	text-align: center;
+	background-color:rgba(102,102,102,0.5);
+	color: #fff;
+}
+
+.photo-name > span {
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+
+.pagination {
+	text-align: center;
+	margin: 0.5em;
+	overflow: hidden;
+}
+
+.first-back, .next-last, .page-count {
+	width: 33%;
+	font-weight: 200;
+	font-size: 0.9em;
+	letter-spacing: 1px;
+}
+
+.first-back { float: left; }
+
+.next-last { float: right; }
+
+.page-count { float: left; }
+
+.search {
+	padding: 1em 0;
+	text-align: center;
+	position: relative;
+	font-weight: 200;
+	font-size: 0.9em;
+	letter-spacing: 1px;
+}
+
+input {
+	margin-left: 1em;
+	width: 200px;
+	padding:5px;
+}
+
+.datalistPlaceholder {
+	padding: 0;
+	width: 180px;
+	background-color: white;
+	border: 1px solid #cacece;
+	position: absolute;
+	z-index: 1000;
+	margin-top: 0.2em;
+	left: 400px;
+	box-shadow: 5px 5px 15px black;
+}
+
+.datalistPlaceholder li {
+	border-bottom: 1px solid #cacece;
+}
+
+.datalistPlaceholder a {
+	display: block;
+	padding: 0.5em;
+}
+
+.search li {
+	list-style-type: none;
+	cursor: pointer;
+	text-align: left;
+}
+
+.datalistPlaceholder a:focus {
+	background-color: #6699ff;
+	color: white;
+	outline: none;
+}
+
+.search-button {
+	margin-left: 1em;
+}
