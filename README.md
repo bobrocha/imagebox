@@ -6,13 +6,14 @@ The project demonstrates the use of the following:
 * Sessions
 * Ajax via jQuery
 * Object Oriented Programming
-* prevention of SQL Injection
+* Prevention of SQL Injection
 * SQL
 * INNER JOIN's
-* subqueries
-* opening and saving files
+* Subqueries
+* Opening and saving files
 * DOM manupulation or traversal via jQuery
-* image manipulation
+* Image manipulation
+* Foreign key's
 
 
 You can find a full working example at http://topdizel.com
