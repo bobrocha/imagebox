@@ -16,6 +16,3 @@ The project demonstrates the use of the following:
 * DOM manupulation or traversal via jQuery
 * Image manipulation
 * Foreign key's
-
-
-You can find a full working example at http://topdizel.com
